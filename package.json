@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "prisma generate && nuxt build",
+    "build": "nuxt build",
     "dev": "nuxt dev --trace-warnings",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
