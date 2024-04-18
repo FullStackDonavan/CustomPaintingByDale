@@ -13,7 +13,7 @@
       parentUrl="/Services/"
     />
 
-    <GridTwoColumns>
+    <TwoColumnSection>
       <div>
         <h1
           class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
@@ -42,11 +42,11 @@
       <div>
         <ContactForm />
       </div>
-    </GridTwoColumns>
+    </TwoColumnSection>
 
     <ServiceArea />
 
-    <GridTwoColumns>
+    <TwoColumnSection>
       <div>
         <h1
           class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
@@ -65,7 +65,7 @@
           receive the paint. Amerus Pro Painting provides a wide range of
           interior painting services.
         </p>
-        <Grid cols="2" gap="4">
+        <GridTwoColumns>
           <ul>
             <li
               class="flex font-normal text-gray-500 lg:text-xl dark:text-gray-400"
@@ -88,14 +88,14 @@
               }}</span>
             </li>
           </ul>
-        </Grid>
+        </GridTwoColumns>
       </div>
       <div>
         <img src="/img/interior-painting.jpg" />
       </div>
-    </GridTwoColumns>
+    </TwoColumnSection>
 
-    <GridTwoColumns>
+    <TwoColumnSection>
       <div>
         <!-- <img :src="`/img/drivers.jpg`" /> -->
         <img src="/img/exterior-painting.jpg" />
@@ -115,13 +115,13 @@
           sets the foundation for a professional, lasting exterior paint job.
           And when the job is complete, Amerus Pro Painting wants you to have
           just as much pride and joy in the final result as we do in creating it
-          for you. Let Amerus Pro Painting's professional painters maximize the
+          for you. Custom Painting By Dale's professional painters maximize the
           curb appeal of your property!
         </p>
       </div>
-    </GridTwoColumns>
+    </TwoColumnSection>
 
-    <GridTwoColumns>
+    <TwoColumnSection>
       <div>
         <h1
           class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
@@ -140,7 +140,7 @@
           receive the paint. Amerus Pro Painting provides a wide range of
           interior painting services.
         </p>
-        <Grid cols="2" gap="4">
+        <GridTwoColumns>
           <ul>
             <li
               class="flex font-normal text-gray-500 lg:text-xl dark:text-gray-400"
@@ -163,14 +163,14 @@
               }}</span>
             </li>
           </ul>
-        </Grid>
+        </GridTwoColumns>
       </div>
       <div>
         <img src="/img/drywal-repair.jpg" />
       </div>
-    </GridTwoColumns>
+    </TwoColumnSection>
 
-    <GridTwoColumns>
+    <TwoColumnSection>
       <div>
         <!-- <img :src="`/img/drivers.jpg`" /> -->
         <img src="/img/epoxy-garage-flooring.jpg" />
@@ -190,11 +190,11 @@
           sets the foundation for a professional, lasting exterior paint job.
           And when the job is complete, Amerus Pro Painting wants you to have
           just as much pride and joy in the final result as we do in creating it
-          for you. Let Amerus Pro Painting's professional painters maximize the
+          for you. Custom Painting By Dale's professional painters maximize the
           curb appeal of your property!
         </p>
       </div>
-    </GridTwoColumns>
+    </TwoColumnSection>
 
     <GetAnswersToYourQuestions />
   </BasicSection>

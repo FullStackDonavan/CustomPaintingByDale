@@ -23,8 +23,8 @@
             <p
               class="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400"
             >
-              Welcome to Custom Painting By Dale, where we turn your house into
-              a home with our expert interior painting services. Whether you're
+              Welcome to [Your Company Name], where we turn your house into a
+              home with our expert interior painting services. Whether you're
               looking to refresh a single room or transform your entire space,
               our team of skilled painters is here to bring your vision to life.
             </p>
@@ -65,30 +65,6 @@
             ceilings to receive the paint. Amerus Pro Painting provides a wide
             range of interior painting services.
           </p>
-          <Grid cols="2" gap="4">
-            <ul>
-              <li
-                class="flex font-normal text-gray-500 lg:text-xl dark:text-gray-400"
-                v-for="item in listAmenities1"
-                :key="item.title"
-              >
-                <Icon name="uil:check" color="green" size="2em" /><span>{{
-                  item.title
-                }}</span>
-              </li>
-            </ul>
-            <ul>
-              <li
-                class="flex font-normal text-gray-500 lg:text-xl dark:text-gray-400"
-                v-for="item in listAmenities2"
-                :key="item.title"
-              >
-                <Icon name="uil:check" color="green" size="2em" /><span>{{
-                  item.title
-                }}</span>
-              </li>
-            </ul>
-          </Grid>
         </div>
         <div>
           <img src="/img/interior-painting.jpg" />
@@ -115,7 +91,7 @@
             sets the foundation for a professional, lasting exterior paint job.
             And when the job is complete, Amerus Pro Painting wants you to have
             just as much pride and joy in the final result as we do in creating
-            it for you. Let Amerus Pro Painting's professional painters maximize
+            it for you. Custom Painting By Dale's professional painters maximize
             the curb appeal of your property!
           </p>
         </div>
@@ -140,30 +116,6 @@
             ceilings to receive the paint. Amerus Pro Painting provides a wide
             range of interior painting services.
           </p>
-          <Grid cols="2" gap="4">
-            <ul>
-              <li
-                class="flex font-normal text-gray-500 lg:text-xl dark:text-gray-400"
-                v-for="item in listAmenities1"
-                :key="item.title"
-              >
-                <Icon name="uil:check" color="green" size="2em" /><span>{{
-                  item.title
-                }}</span>
-              </li>
-            </ul>
-            <ul>
-              <li
-                class="flex font-normal text-gray-500 lg:text-xl dark:text-gray-400"
-                v-for="item in listAmenities2"
-                :key="item.title"
-              >
-                <Icon name="uil:check" color="green" size="2em" /><span>{{
-                  item.title
-                }}</span>
-              </li>
-            </ul>
-          </Grid>
         </div>
         <div>
           <img src="/img/drywal-repair.jpg" />
@@ -190,7 +142,7 @@
             sets the foundation for a professional, lasting exterior paint job.
             And when the job is complete, Amerus Pro Painting wants you to have
             just as much pride and joy in the final result as we do in creating
-            it for you. Let Amerus Pro Painting's professional painters maximize
+            it for you. Custom Painting By Dale's professional painters maximize
             the curb appeal of your property!
           </p>
         </div>
@@ -206,14 +158,14 @@ export default {
   name: "Home Page",
   data() {
     return {
-      listAmenities1: [
+      list1: [
         { title: "Lorem ipsum dolor sit amet" },
         { title: "Lorem ipsum dolor sit amet" },
         { title: "Lorem ipsum dolor sit amet" },
         { title: "Lorem ipsum dolor sit amet" },
         { title: "Lorem ipsum dolor sit amet" },
       ],
-      listAmenities2: [
+      list2: [
         { title: "Lorem ipsum dolor sit amet" },
         { title: "Lorem ipsum dolor sit amet" },
         { title: "Lorem ipsum dolor sit amet" },

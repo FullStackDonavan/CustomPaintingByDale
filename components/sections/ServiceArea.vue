@@ -15,7 +15,7 @@
               >
                 AREAS WE SERVE IN CENTRAL FLORIDA
               </h2>
-              <Grid cols="2" gap="4" class="mb-8">
+              <GridTwoColumns class="mb-8">
                 <ul>
                   <li
                     class="font-normal text-white lg:text-xl"
@@ -39,7 +39,7 @@
                     >
                   </li>
                 </ul>
-              </Grid>
+              </GridTwoColumns>
               <Button to="https://nuxtjs.org" name="FIND OUT MORE" />
               <!-- <ContactForm />-->
             </div>

@@ -1,13 +1,13 @@
 <template>
-  <BasicSection>
+  <TheContainer>
     <HeroSection
-      title="Expert Deck Staining: Preserve and Beautify Your Deck"
-      description="TRANSFORMING DECKS INTO OUTDOOR MASTERPIECES"
+      title="Beyond Colors: The Art of Painting &amp; Staining"
+      description="UNLEASH THE POTENTIAL OF YOUR SURFACES WITH US"
       url="https://nuxtjs.org"
-      image="/img/deck-staining-banner.jpg"
+      image="/img/handyman-painting-window-banner.jpg"
     />
     <Breadcrumbs
-      currentPageTitle="Deck Staining"
+      currentPageTitle="Painting &amp; Staining"
       parentTitle="Services"
       parentUrl="/Services/"
     />
@@ -64,7 +64,7 @@
           receive the paint. Amerus Pro Painting provides a wide range of
           interior painting services.
         </p>
-        <Grid cols="2" gap="4">
+        <GridTwoColumns>
           <ul>
             <li
               class="flex font-normal text-gray-500 lg:text-xl dark:text-gray-400"
@@ -87,7 +87,7 @@
               }}</span>
             </li>
           </ul>
-        </Grid>
+        </GridTwoColumns>
       </div>
       <div>
         <img src="/img/interior-painting.jpg" />
@@ -114,7 +114,7 @@
           sets the foundation for a professional, lasting exterior paint job.
           And when the job is complete, Amerus Pro Painting wants you to have
           just as much pride and joy in the final result as we do in creating it
-          for you. Let Amerus Pro Painting's professional painters maximize the
+          for you. Custom Painting By Dale's professional painters maximize the
           curb appeal of your property!
         </p>
       </div>
@@ -139,7 +139,7 @@
           receive the paint. Amerus Pro Painting provides a wide range of
           interior painting services.
         </p>
-        <Grid cols="2" gap="4">
+        <GridTwoColumns>
           <ul>
             <li
               class="flex font-normal text-gray-500 lg:text-xl dark:text-gray-400"
@@ -162,7 +162,7 @@
               }}</span>
             </li>
           </ul>
-        </Grid>
+        </GridTwoColumns>
       </div>
       <div>
         <img src="/img/drywal-repair.jpg" />
@@ -189,14 +189,14 @@
           sets the foundation for a professional, lasting exterior paint job.
           And when the job is complete, Amerus Pro Painting wants you to have
           just as much pride and joy in the final result as we do in creating it
-          for you. Let Amerus Pro Painting's professional painters maximize the
+          for you. Custom Painting By Dale's professional painters maximize the
           curb appeal of your property!
         </p>
       </div>
     </GridTwoColumns>
 
     <GetAnswersToYourQuestions />
-  </BasicSection>
+  </TheContainer>
 </template>
 
 <script>
