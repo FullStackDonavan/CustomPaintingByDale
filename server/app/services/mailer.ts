@@ -1,10 +1,12 @@
-import {nodemailer, defaults} from 'nodemailer'
-import * as dotenv from 'dotenv'
-dotenv.config()
+import nodemailer, { TransportOptions } from 'nodemailer';
+import * as dotenv from 'dotenv';
 
-const transport = nodemailer.createTransport({
+dotenv.config();
+
+// Create transporter
+const transporter = nodemailer.createTransport({
     pool: true,
-    host: "smtp.google.com",
+    host: "smtp.gmail.com",
     port: 465,
     secure: true, // use TLS
     auth: {
@@ -13,5 +15,4 @@ const transport = nodemailer.createTransport({
     },
 });
 
-let transporter = nodemailer.createTransport(transport[defaults])
-
+export default transporter;

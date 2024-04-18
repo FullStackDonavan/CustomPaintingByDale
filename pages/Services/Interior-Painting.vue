@@ -12,38 +12,37 @@
         parentTitle="Services"
         parentUrl="/Services/"
       />
-      <BasicSection class="m-8">
-        <GridTwoColumns>
-          <div>
-            <h1
-              class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
-            >
-              YOUR EXPERT PAINTING CONTRACTOR SERVING THE GREATER LAKELAND AREA!
-            </h1>
-            <p
-              class="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400"
-            >
-              Welcome to [Your Company Name], where we turn your house into a
-              home with our expert interior painting services. Whether you're
-              looking to refresh a single room or transform your entire space,
-              our team of skilled painters is here to bring your vision to life.
-            </p>
+      <GridTwoColumns>
+        <div>
+          <h1
+            class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
+          >
+            YOUR EXPERT PAINTING CONTRACTOR SERVING THE GREATER LAKELAND AREA!
+          </h1>
+          <p
+            class="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400"
+          >
+            Welcome to [Your Company Name], where we turn your house into a home
+            with our expert interior painting services. Whether you're looking
+            to refresh a single room or transform your entire space, our team of
+            skilled painters is here to bring your vision to life.
+          </p>
 
-            <p
-              class="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400"
-            >
-              Our dedicated team of skilled painters is here to bring your
-              vision to life, one brushstroke at a time. Whether you're looking
-              to revitalize a single room or undertake a complete interior
-              makeover, our expertise and passion for painting will ensure that
-              your home becomes a masterpiece of color and design.
-            </p>
-          </div>
-          <div>
-            <ContactForm />
-          </div>
-        </GridTwoColumns>
-      </BasicSection>
+          <p
+            class="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400"
+          >
+            Our dedicated team of skilled painters is here to bring your vision
+            to life, one brushstroke at a time. Whether you're looking to
+            revitalize a single room or undertake a complete interior makeover,
+            our expertise and passion for painting will ensure that your home
+            becomes a masterpiece of color and design.
+          </p>
+        </div>
+        <div>
+          <ContactForm />
+          <!-- <RegisterForm /> -->
+        </div>
+      </GridTwoColumns>
       <ServiceArea />
 
       <GridTwoColumns>
