@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  name: "TwoColumnSection",
+  name: "GridTwoColumns",
   props: {
     title: String,
     description: String,

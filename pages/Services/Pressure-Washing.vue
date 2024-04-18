@@ -13,7 +13,7 @@
       parentUrl="/Services/"
     />
 
-    <TwoColumnSection>
+    <GridTwoColumns>
       <div>
         <h1
           class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
@@ -42,11 +42,11 @@
       <div>
         <ContactForm />
       </div>
-    </TwoColumnSection>
+    </GridTwoColumns>
 
     <ServiceArea />
 
-    <TwoColumnSection>
+    <GridTwoColumns>
       <div>
         <h1
           class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
@@ -93,9 +93,9 @@
       <div>
         <img src="/img/interior-painting.jpg" />
       </div>
-    </TwoColumnSection>
+    </GridTwoColumns>
 
-    <TwoColumnSection>
+    <GridTwoColumns>
       <div>
         <!-- <img :src="`/img/drivers.jpg`" /> -->
         <img src="/img/exterior-painting.jpg" />
@@ -119,9 +119,9 @@
           curb appeal of your property!
         </p>
       </div>
-    </TwoColumnSection>
+    </GridTwoColumns>
 
-    <TwoColumnSection>
+    <GridTwoColumns>
       <div>
         <h1
           class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
@@ -168,9 +168,9 @@
       <div>
         <img src="/img/drywal-repair.jpg" />
       </div>
-    </TwoColumnSection>
+    </GridTwoColumns>
 
-    <TwoColumnSection>
+    <GridTwoColumns>
       <div>
         <!-- <img :src="`/img/drivers.jpg`" /> -->
         <img src="/img/epoxy-garage-flooring.jpg" />
@@ -194,7 +194,7 @@
           curb appeal of your property!
         </p>
       </div>
-    </TwoColumnSection>
+    </GridTwoColumns>
 
     <GetAnswersToYourQuestions />
   </BasicSection>

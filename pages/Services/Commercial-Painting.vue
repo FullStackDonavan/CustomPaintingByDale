@@ -12,7 +12,7 @@
       parentUrl="/Services/"
     />
 
-    <TwoColumnSection>
+    <GridTwoColumns>
       <div>
         <h1
           class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
@@ -41,11 +41,11 @@
       <div>
         <ContactForm />
       </div>
-    </TwoColumnSection>
+    </GridTwoColumns>
 
     <ServiceArea />
 
-    <TwoColumnSection>
+    <GridTwoColumns>
       <div>
         <h1
           class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
@@ -96,9 +96,9 @@
           sizes="sm:200vw md:60vw lg:500px"
         />
       </div>
-    </TwoColumnSection>
+    </GridTwoColumns>
 
-    <TwoColumnSection>
+    <GridTwoColumns>
       <div>
         <!-- <img :src="`/img/drivers.jpg`" /> -->
         <NuxtImg
@@ -126,9 +126,9 @@
           curb appeal of your property!
         </p>
       </div>
-    </TwoColumnSection>
+    </GridTwoColumns>
 
-    <TwoColumnSection>
+    <GridTwoColumns>
       <div>
         <h1
           class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
@@ -179,9 +179,9 @@
           sizes="sm:200vw md:60vw lg:500px"
         />
       </div>
-    </TwoColumnSection>
+    </GridTwoColumns>
 
-    <TwoColumnSection>
+    <GridTwoColumns>
       <div>
         <!-- <img :src="`/img/drivers.jpg`" /> -->
         <NuxtImg
@@ -209,7 +209,7 @@
           curb appeal of your property!
         </p>
       </div>
-    </TwoColumnSection>
+    </GridTwoColumns>
 
     <GetAnswersToYourQuestions />
   </BasicSection>

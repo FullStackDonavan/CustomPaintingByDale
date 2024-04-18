@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: "TwoColumnSection",
+  name: "GridTwoColumns",
   data() {
     return {
       colorMode: useColorMode(),
