@@ -39,7 +39,7 @@
           </p>
         </div>
         <div>
-          <ContactForm />
+          <ContactForm tag="interiorpainting" />
           <!-- <RegisterForm /> -->
         </div>
       </GridTwoColumns>

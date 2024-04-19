@@ -15,7 +15,7 @@ export default defineNuxtConfig({
       
     ]
   },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@nuxt/content', 'nuxt-icon', '@nuxt/image',],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@nuxt/content', 'nuxt-icon', '@nuxt/image', ],
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
     configPath: 'tailwind.config.js',
@@ -43,7 +43,7 @@ export default defineNuxtConfig({
       db: process.env.DATABASE_URL,
     },
     public: {
-      GHL_API_KEY: process.env.GHL_API_KEY,
+      GHL_API_KEY: process.env.GHL_API_KEY , 
       appDomain: process.env.APP_DOMAIN,
       gitHash: process.env.GITHUB_SHA,
       releaseVersion: process.env.RELEASE_VERSION,
