@@ -68,7 +68,7 @@
                   </li>
                 </ul>
               </GridTwoColumns>
-              <Button to="https://nuxtjs.org" name="FIND OUT MORE" />
+              <!-- <Button to="https://nuxtjs.org" name="FIND OUT MORE" /> -->
               <!-- <ContactForm />-->
             </div>
           </div>
