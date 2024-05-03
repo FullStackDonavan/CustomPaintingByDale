@@ -23,13 +23,13 @@
           Services
         </span>
       </nuxt-link>
-      <nuxt-link to="/articles/overview">
+      <!-- <nuxt-link to="/articles/overview">
         <span
           class="text-base font-medium text-gray-500 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-300"
         >
           Blog
         </span>
-      </nuxt-link>
+      </nuxt-link> -->
     </div>
   </nav>
 </template>
