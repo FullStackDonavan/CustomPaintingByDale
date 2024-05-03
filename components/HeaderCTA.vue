@@ -8,7 +8,7 @@
       </h3>
       <div class="flex flex-col">
         <a
-          href="tel:1-864-760-1263"
+          href="tel:1-863-899-4254"
           class="text-slate-100 hover:text-slate-300 dark:hover:text-slate-100 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-amber-800 bg-blue-400 hover:bg-blue-800 dark:bg-amber-500 dark:hover:bg-amber-600 font-medium text-sm rounded-lg px-5 py-2.5 mx-2 mb-2"
         >
           <Icon name="uil:phone-alt" color="white" size="2em" /> (863) 899-4254
