@@ -9,13 +9,13 @@
         </span>
       </nuxt-link>
 
-      <nuxt-link to="/about-us">
+      <!-- <nuxt-link to="/about-us">
         <span
           class="text-base font-medium text-gray-500 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-300"
         >
           About Us
         </span>
-      </nuxt-link>
+      </nuxt-link> -->
       <nuxt-link to="/Services">
         <span
           class="text-base font-medium text-gray-500 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-300"
