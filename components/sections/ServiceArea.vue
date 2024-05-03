@@ -15,7 +15,7 @@
               >
                 AREAS WE SERVE IN CENTRAL FLORIDA
               </h2>
-              <GridTwoColumns class="mb-8">
+              <!-- <GridTwoColumns class="mb-8">
                 <ul>
                   <li
                     class="font-normal text-white lg:text-xl"
@@ -25,6 +25,34 @@
                     <Icon name="uil:paint-tool" color="white" size="2em" /><span
                       ><a :href="item.url">{{ item.title }}</a></span
                     >
+                  </li>
+                </ul>
+                <ul>
+                  <li
+                    class="font-normal text-white lg:text-xl"
+                    v-for="item in listAmenities2"
+                    :key="item.title"
+                  >
+                    <Icon name="uil:paint-tool" color="white" size="2em" /><a
+                      :href="item.url"
+                      >{{ item.title }}</a
+                    >
+                  </li>
+                </ul>
+              </GridTwoColumns> -->
+
+              <GridTwoColumns class="mb-8">
+                <ul>
+                  <li
+                    class="font-normal text-white lg:text-xl"
+                    v-for="item in listAmenities1"
+                    :key="item.title"
+                  >
+                    <Icon
+                      name="uil:paint-tool"
+                      color="white"
+                      size="2em"
+                    /><span>{{ item.title }}</span>
                   </li>
                 </ul>
                 <ul>
